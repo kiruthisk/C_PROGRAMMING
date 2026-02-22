@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+int a;
+int b;
+printf("enter the value:");
+scanf("%d",&a);
+printf("enter the value: ");
+scanf("%d",&b);
+printf("addition %d\n",a+b);
+printf("sub %d\n",a-b);
+printf("multiplication %d\n",a*b);
+printf("divd %d\n",a/b);
+printf("mod %d\n",a%b);
+    return 0;
+}
