@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+ int a,b,c,d=0;
+ printf("enter the value of a: ",&a);
+ scanf("%d",&a);
+ b=a;
+ while (a!=0)
+  {
+      c=a%10;
+      d=d+(c*c*c);
+      a=a/10;
+  }
+  if(d==b)
+  {
+      printf("the give value is armstrong");
+  }
+  else{
+      printf("the given value is not armstrong");
+  }
+    return 0;
+}
